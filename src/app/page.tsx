@@ -2,10 +2,10 @@ import Faq from "./components/faq";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-[1440px] px-[100px]">
+    <main className="mx-auto max-w-[1440px] px-4 sm:px-6 md:px-8 lg:px-[100px]">
       <section className="flex flex-col gap-8 my-24 lg:flex-row">
         <div className="flex flex-col gap-8">
-          <h1 className="text-7xl text-[#403E3E] font-medium">
+          <h1 className="md:text-7xl text-5xl text-[#403E3E] font-medium">
             <span className="font-bold tracking-[-0.08em]">Descubra </span>
             Como se Tornar uma
             <span className="font-bold text-[#b2625c] tracking-[-0.08em]">
@@ -22,21 +22,21 @@ export default function Home() {
             seu caminho rumo ao <span className="font-bold">sucesso.</span>
           </p>
           <a
-            href="#"
-            className="bg-[#B2625C] w-72 text-center font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
+            href="#scroll"
+            className="bg-[#B2625C] w-72 text-center mx-auto lg:mx-0 font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
           >
             Quero Descobrir!!
           </a>
         </div>
         <img
-          className="w-full xl:mr-0"
+          className="w-[420px] rounded-lg xl:mr-0"
           src="/hero.png"
           alt="Imagem da seção Hero"
         />
       </section>
 
       <section className="flex flex-col py-8 gap-10 justify-center">
-        <div className="bg-[#403E3E] rounded-xl py-6 px-6 text-[26px] flex justify-center items-center">
+        <div id="scroll" className="bg-[#403E3E] rounded-xl py-6 px-6 text-[26px] flex justify-center items-center">
           <h2 className="text-[#FDFDFD] tracking-[-0.04em] text-center">
             <span className="font-bold">Receba produtos grátis</span>, crie
             conteúdo e <span className="font-bold">seja paga</span>, sem{" "}
@@ -47,14 +47,14 @@ export default function Home() {
         </div>
         <div className="flex justify-center">
           <img
-            className="w-44 cursor-pointer"
+            className="w-44"
             src="/mousescroll.gif"
             alt="Gif de um scroll de mouse"
           />
         </div>
       </section>
 
-      <section className="py-28 gap-x-4 flex flex-row">
+      <section className="py-28 gap-x-4 flex-col flex lg:flex-row">
         <div className="space-y-12 max-w-[640px]">
           <h1 className="font-medium text-4xl text-[#403E3E] tracking-[-0.08em]">
             Tá, Mas <span className="font-bold text-6xl">O Que é UGC?</span>
@@ -102,7 +102,7 @@ export default function Home() {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <video className="w-full h-full rounded-xl" controls>
-            <source src="video1.mp4" type="video/mp4" />
+            <source src="video4.mp4" type="video/mp4" />
             Seu navegador não suporta o vídeo.
           </video>
 
@@ -117,20 +117,20 @@ export default function Home() {
           </video>
 
           <video className="w-full h-full rounded-xl" controls>
-            <source src="video4.mp4" type="video/mp4" />
+            <source src="video1.mp4" type="video/mp4" />
             Seu navegador não suporta o vídeo.
           </video>
         </div>
       </section>
 
-      <section className="my-32 flex flex-row gap-6">
+      <section className="my-32 flex flex-col lg:flex-row gap-6">
         <div className="flex items-center">
-          <img src="/hero.png" className="w-[450px]" alt="" />
+          <img src="/comecar.png" className="w-[450px] rounded-lg" alt="" />
         </div>
         <div className="max-w-[780px]">
-          <h1 className="text-[#403E3E] font-medium text-5xl tracking-[-0.08em]">
+          <h1 className="text-[#403E3E] font-medium text-4xl lg:text-5xl tracking-[-0.08em]">
             Esse é o Sinal para <br />{" "}
-            <span className="font-bold text-7xl">
+            <span className="font-bold text-6xl lg:text-7xl">
               {" "}
               Você <span className="text-[#B2625C]">Começar</span> no UGC
             </span>
@@ -173,7 +173,7 @@ export default function Home() {
           {" "}
           O Que é o Manual UGC?{" "}
         </h1>
-        <p className="text-[#403E3E] font-normal text-3xl">
+        <p className="text-[#403E3E] font-normal text-2xl md:text-3xl lg:text-3xl">
           O Manual UGC é um guia que vai te ajudar, não só a entender mais sobre
           o UGC, mas também te ensinar o que você deve fazer para começar nessa
           nova profissão. Você terá todo o conhecimento necessário e o passo a
@@ -188,59 +188,59 @@ export default function Home() {
           <table className="max-w-[600px] border-collapse border border-[#403E3E]">
             <thead>
               <tr>
-                <th className="border border-[#403E3E] p-2">Temas</th>
-                <th className="border border-[#403E3E] p-2">Conteúdos</th>
+                <th className="border border-[#403E3E] text-left font-bold p-2">Temas</th>
+                <th className="border border-[#403E3E] text-left font-normal p-2">Conteúdos</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-[#403E3E] p-2">O que é UGC</td>
-                <td className="border border-[#403E3E] p-2">
+                <td className="border border-[#403E3E] text-left font-bold p-2">O que é UGC</td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">
                   Conceito e Prática
                 </td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] p-2">
+                <td className="border border-[#403E3E] text-left font-bold p-2">
                   Perfil Pré Portfólio
                 </td>
-                <td className="border border-[#403E3E] p-2">
+                <td className="border border-[#403E3E] text-left font-normal p-2">
                   Usando as redes com estratégia
                 </td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] p-2">
+                <td className="border border-[#403E3E] text-left font-bold p-2">
                   Os Primeiros Passos
                 </td>
-                <td className="border border-[#403E3E] p-2">Como começar</td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">Como começar</td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] p-2">
+                <td className="border border-[#403E3E] text-left font-bold p-2">
                   Contato com Marcas
                 </td>
-                <td className="border border-[#403E3E] p-2">
+                <td className="border border-[#403E3E] text-left font-normal p-2">
                   Prospecção de clientes
                 </td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] p-2">
-                  Tabela de Valores
+                <td className="border border-[#403E3E] text-left font-bold p-2">
+                  Tabela de Valores 
                 </td>
-                <td className="border border-[#403E3E] p-2">Quanto cobrar</td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">Quanto cobrar</td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] p-2">Contratos</td>
-                <td className="border border-[#403E3E] p-2">Burocracias</td>
+                <td className="border border-[#403E3E] text-left font-bold p-2">Contratos</td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">Burocracias</td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] p-2">Entrega Final</td>
-                <td className="border border-[#403E3E] p-2">
+                <td className="border border-[#403E3E] text-left font-bold p-2">Entrega Final</td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">
                   Como finalizar de forma certa
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p className="text-[#403E3E] font-medium text-[28px]">
+        <p className="text-[#403E3E] font-medium text-2xl md:text-3xl lg:text-3xl">
           Você não estará sozinha, vou te pegar na mão e te guiar de “não sei
           nada sobre UGC” para “tenho tudo para começar e me lançar no mercado
           digital”. <br /> <br />
@@ -249,8 +249,8 @@ export default function Home() {
           precisa para ter sucesso na sua jornada!
         </p>
         <a
-          href="#"
-          className="bg-[#B2625C] mx-auto w-[400px] text-center font-medium text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
+          href="https://pay.kiwify.com.br/M6Z9A61"
+          className="bg-[#B2625C] mx-auto w-[370px] lg:w-[470px] text-center font-medium lg:text-2xl text-xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
         >
           Quero Ter Acesso ao Manual!
         </a>
@@ -264,26 +264,26 @@ export default function Home() {
           Se Você...
         </h3>
         <div className="flex flex-col mt-20 gap-y-8">
-          <div className="flex flex-row justify-center items-center space-x-24">
+          <div className="flex flex-row justify-center items-center space-x-16 lg:space-x-24">
             <img src="/camera.svg" alt="" />
             <p className="text-[#403E3E] font-normal text-2xl w-[470px]">
               Gosta de gravar e editar vídeos curtos para redes sociais;
             </p>
           </div>
-          <div className="flex flex-row justify-center items-center space-x-24">
+          <div className="flex flex-row justify-center items-center space-x-16 lg:space-x-24">
             <img src="/laptop.svg" alt="" />
             <p className="text-[#403E3E] font-normal text-2xl w-[470px]">
               Quer trabalhar de qualquer lugar, no seu próprio ritmo;
             </p>
           </div>
-          <div className="flex flex-row justify-center items-center space-x-24">
+          <div className="flex flex-row justify-center items-center space-x-16 lg:space-x-24">
             <img src="/megafone.svg" alt="" />
             <p className="text-[#403E3E] font-normal text-2xl w-[470px]">
               Deseja fazer parte de uma nova tendência que está revolucionando o
               marketing digital;
             </p>
           </div>
-          <div className="flex flex-row justify-center items-center space-x-24">
+          <div className="flex flex-row justify-center items-center space-x-16 lg:space-x-24">
             <img src="/comentarios.svg" alt="" />
             <p className="text-[#403E3E] font-normal text-2xl w-[470px]">
               É boa em compartilhar suas experiências e opiniões nas <br />{" "}
@@ -300,15 +300,15 @@ export default function Home() {
           cursos com um valor elevado que eu não podia pagar.
         </p>
         <a
-          href="#"
+          href="https://pay.kiwify.com.br/M6Z9A61"
           className="bg-[#B2625C] mx-auto w-[390px] text-center font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
         >
           Quero Começar com o UGC!
         </a>
       </section>
 
-      <section className="mt-40">
-        <div className="flex flex-row gap-x-10 justify-center items-center">
+      <section className="mt-40 mx-auto">
+        <div className="flex lg:flex-row flex-col gap-x-10 gap-y-10 justify-center items-center">
           <div className="flex flex-col">
             <h3 className="text-[#403E3E] font-bold text-3xl mb-6">
               O que está incluso:
@@ -322,7 +322,7 @@ export default function Home() {
             <p className="text-2xl text-[#403E3E]"> - Aula inaugural </p>
             <p className="text-2xl text-[#403E3E]"> - Acesso à consultorias </p>
           </div>
-          <div className="bg-[#DBDBDB] w-[440px] flex flex-col justify-center items-center rounded-xl py-12 gap-y-10">
+          <div className="bg-[#DBDBDB] w-screen lg:w-[440px] mx-4 flex flex-col justify-center items-center rounded-xl py-12 gap-y-10">
             <h3 className="text-[#403E3E] font-bold text-5xl">Manual UGC</h3>
             <h4 className="text-[#403E3E] font-medium text-3xl">Por apenas</h4>
             <h2 className="text-[#403E3E] font-medium text-3xl w-[230px] text-center">
@@ -334,7 +334,7 @@ export default function Home() {
               ou <span className="underline">R$97,00 </span> à vista
             </h2>
             <a
-              href="#"
+              href="https://pay.kiwify.com.br/M6Z9A61"
               className="bg-[#B2625C] mx-auto w-[270px] text-center font-semibold text-xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
             >
               Eu Quero o Manual!
@@ -348,20 +348,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white px-6 py-10 mt-20 flex flex-row items-center gap-x-28">
+      <section className="bg-white px-6 py-10 mt-20 flex flex-col lg:flex-row items-center gap-y-6 gap-x-28">
         <p className="text-[#403E3E] font-medium text-[28px]">
           Como tenho confiança no meu produto e sei que ele vai te ajudar a
           entender como começar a trabalhar com UGC, vou estar disponibilizando
           7 dias de garantia caso sinta que o manual não é bom ou não quiser
           seguir na área.
         </p>
-        <img src="/7diasgarantia.png" alt="" />
+        <img src="/7diasgarantia.png" className="w-[160px]" alt="Icone 7 dias de garantia" />
       </section>
 
       <section className="flex flex-col items-center gap-8 my-24 lg:flex-row">
         <img
-          className="w-[450px] h-[606px] xl:ml-0 flex"
-          src="/hero.png"
+          className="w-[450px] h-full rounded-xl xl:ml-0 flex"
+          src="/mentora.png"
           alt="Imagem da seção Hero"
         />
         <div className="flex flex-col gap-8">
@@ -397,8 +397,8 @@ export default function Home() {
       </section>
       <div className="flex justify-center items-center">
         <a
-          href="#"
-          className="bg-[#B2625C] w-[470px] text-center mx-auto font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
+          href="https://pay.kiwify.com.br/M6Z9A61"
+          className="bg-[#B2625C] w-[480px] lg:w-[470px] text-center mx-auto font-semibold text-xl lg:text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
         >
           Quero Ter Acesso ao Manual UGC!
         </a>
@@ -412,15 +412,15 @@ export default function Home() {
       <section className="mt-20 flex flex-col justify-center gap-10 mb-12">
         <h1 className="text-[#403E3E] mx-auto font-bold text-center text-4xl">Pronta para dar o seu primeiro passo?</h1>
         <a
-          href="#"
-          className="bg-[#B2625C] w-[470px] text-center mx-auto font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
+          href="https://pay.kiwify.com.br/M6Z9A61"
+          className="bg-[#B2625C] w[340px] lg:w-[470px] text-center mx-auto font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
         >
           Acesse o Manual e Comece Hoje! 
         </a>
       </section>
 
       <footer className="flex justify-center p-10">
-        <p className="text-[#403E3E] font-medium text-[28px]">
+        <p className="text-[#403E3E] font-medium text-2xl">
           Copyright 2024 - Manual UGC . Todos Direitos Reservados ©
         </p>
       </footer>
