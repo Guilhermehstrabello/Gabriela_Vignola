@@ -5,7 +5,7 @@ export default function Home() {
     <main className="mx-auto max-w-[1440px] px-4 sm:px-6 md:px-8 lg:px-[100px]">
       <section className="flex flex-col gap-8 my-24 lg:flex-row">
         <div className="flex flex-col gap-8">
-          <h1 className="md:text-7xl text-5xl text-[#403E3E] font-medium">
+          <h1 className="md:text-7xl text-6xl text-[#403E3E] font-medium">
             <span className="font-bold tracking-[-0.08em]">Descubra </span>
             Como se Tornar uma
             <span className="font-bold text-[#b2625c] tracking-[-0.08em]">
