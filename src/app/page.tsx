@@ -97,7 +97,7 @@ export default function Home() {
       </section>
 
       <section className="space-y-10">
-        <h1 className="text-6xl text-center mx-auto text-[#403E3E] font-bold tracking-[-0.08em]">
+        <h1 className="lg:text-6xl text-5xl text-center mx-auto text-[#403E3E] font-bold tracking-[-0.08em]">
           UGC Examples
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -136,7 +136,7 @@ export default function Home() {
             </span>
           </h1>
           <div className="mt-8">
-            <div className="p-5 mb-6 bg-[#403E3E] rounded-xl w-[320px] flex justify-right text-3xl font-bold text-[#FDFDFD] tracking-[-0.08em]">
+            <div className="p-5 mb-6 bg-[#403E3E] rounded-xl w-[320px] flex justify-right lg:text-3xl text-2xl font-bold text-[#FDFDFD] tracking-[-0.08em]">
               <h3>Oportunidade Única</h3>
             </div>
             <p className="text-[#403E3E] font-medium text-2xl tracking-[-0.08em]">
@@ -146,7 +146,7 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-8">
-            <div className="p-5 mb-6 bg-[#403E3E] rounded-xl w-[360px] flex justify-right text-3xl font-bold text-[#FDFDFD] tracking-[-0.08em]">
+            <div className="p-5 mb-6 bg-[#403E3E] rounded-xl w-[360px] flex justify-right lg:text-3xl text-2xl font-bold text-[#FDFDFD] tracking-[-0.08em]">
               <h3>Receba Produtos Grátis</h3>
             </div>
             <p className="text-[#403E3E] font-medium text-2xl tracking-[-0.08em]">
@@ -156,7 +156,7 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-8">
-            <div className="p-5 mb-6 bg-[#403E3E] rounded-xl w-[290px] flex justify-right text-3xl font-bold text-[#FDFDFD] tracking-[-0.08em]">
+            <div className="p-5 mb-6 bg-[#403E3E] rounded-xl w-[290px] flex justify-right lg:text-3xl text-2xl font-bold text-[#FDFDFD] tracking-[-0.08em]">
               <h3>Flexibilidade Total</h3>
             </div>
             <p className="text-[#403E3E] font-medium text-2xl tracking-[-0.08em]">
@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col mx-auto justify-center gap-10">
-        <h1 className="text-[#403E3E] text-center font-bold text-6xl tracking-[-0.08em]">
+        <h1 className="text-[#403E3E] text-center font-bold lg:text-6xl text-5xl tracking-[-0.08em]">
           {" "}
           O Que é o Manual UGC?{" "}
         </h1>
@@ -257,10 +257,10 @@ export default function Home() {
       </section>
 
       <section className="mx-auto mt-32 flex flex-col justify-center">
-        <h1 className="text-[#403E3E] text-center font-bold text-6xl">
+        <h1 className="text-[#403E3E] text-center font-bold lg:text-6xl text-5xl">
           Para Quem é o UGC?
         </h1>
-        <h3 className="text-[#403E3E] text-center font-medium text-5xl mt-10">
+        <h3 className="text-[#403E3E] text-center font-medium lg:text-5xl text-4xl mt-10">
           Se Você...
         </h3>
         <div className="flex flex-col mt-20 gap-y-8">
