@@ -36,7 +36,10 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col py-8 gap-10 justify-center">
-        <div id="scroll" className="bg-[#403E3E] rounded-xl py-6 px-6 text-[26px] flex justify-center items-center">
+        <div
+          id="scroll"
+          className="bg-[#403E3E] rounded-xl py-6 px-6 text-[26px] flex justify-center items-center"
+        >
           <h2 className="text-[#FDFDFD] tracking-[-0.04em] text-center">
             <span className="font-bold">Receba produtos grátis</span>, crie
             conteúdo e <span className="font-bold">seja paga</span>, sem{" "}
@@ -95,6 +98,15 @@ export default function Home() {
           />
         </div>
       </section>
+
+      <div className="flex flex-col justify-center items-center mb-20">
+        <a
+          href="#scroll"
+          className="bg-[#B2625C] w-72 text-center mx-auto my-10 lg:mx-0 font-bold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
+        >
+          QUERO COMEÇAR!
+        </a>
+      </div>
 
       <section className="space-y-10">
         <h1 className="lg:text-6xl text-5xl text-center mx-auto text-[#403E3E] font-bold tracking-[-0.08em]">
@@ -168,6 +180,15 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="flex flex-col justify-center items-center mb-20">
+        <a
+          href="#scroll"
+          className="bg-[#B2625C] w-76 text-center mx-auto my-10 lg:mx-0 font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
+        >
+          Quero começar agora!
+        </a>
+      </div>
+
       <section className="flex flex-col mx-auto justify-center gap-10">
         <h1 className="text-[#403E3E] text-center font-bold lg:text-6xl text-5xl tracking-[-0.08em]">
           {" "}
@@ -188,13 +209,19 @@ export default function Home() {
           <table className="max-w-[600px] border-collapse border border-[#403E3E]">
             <thead>
               <tr>
-                <th className="border border-[#403E3E] text-left font-bold p-2">Temas</th>
-                <th className="border border-[#403E3E] text-left font-normal p-2">Conteúdos</th>
+                <th className="border border-[#403E3E] text-left font-bold p-2">
+                  Temas
+                </th>
+                <th className="border border-[#403E3E] text-left font-normal p-2">
+                  Conteúdos
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-[#403E3E] text-left font-bold p-2">O que é UGC</td>
+                <td className="border border-[#403E3E] text-left font-bold p-2">
+                  O que é UGC
+                </td>
                 <td className="border border-[#403E3E] text-left font-normal p-2">
                   Conceito e Prática
                 </td>
@@ -211,7 +238,9 @@ export default function Home() {
                 <td className="border border-[#403E3E] text-left font-bold p-2">
                   Os Primeiros Passos
                 </td>
-                <td className="border border-[#403E3E] text-left font-normal p-2">Como começar</td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">
+                  Como começar
+                </td>
               </tr>
               <tr>
                 <td className="border border-[#403E3E] text-left font-bold p-2">
@@ -223,16 +252,24 @@ export default function Home() {
               </tr>
               <tr>
                 <td className="border border-[#403E3E] text-left font-bold p-2">
-                  Tabela de Valores 
+                  Tabela de Valores
                 </td>
-                <td className="border border-[#403E3E] text-left font-normal p-2">Quanto cobrar</td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">
+                  Quanto cobrar
+                </td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] text-left font-bold p-2">Contratos</td>
-                <td className="border border-[#403E3E] text-left font-normal p-2">Burocracias</td>
+                <td className="border border-[#403E3E] text-left font-bold p-2">
+                  Contratos
+                </td>
+                <td className="border border-[#403E3E] text-left font-normal p-2">
+                  Burocracias
+                </td>
               </tr>
               <tr>
-                <td className="border border-[#403E3E] text-left font-bold p-2">Entrega Final</td>
+                <td className="border border-[#403E3E] text-left font-bold p-2">
+                  Entrega Final
+                </td>
                 <td className="border border-[#403E3E] text-left font-normal p-2">
                   Como finalizar de forma certa
                 </td>
@@ -355,7 +392,11 @@ export default function Home() {
           7 dias de garantia caso sinta que o manual não é bom ou não quiser
           seguir na área.
         </p>
-        <img src="/7diasgarantia.png" className="w-[160px]" alt="Icone 7 dias de garantia" />
+        <img
+          src="/7diasgarantia.png"
+          className="w-[160px]"
+          alt="Icone 7 dias de garantia"
+        />
       </section>
 
       <section className="flex flex-col items-center gap-8 my-24 lg:flex-row">
@@ -405,17 +446,21 @@ export default function Home() {
       </div>
 
       <section className="mt-28 mx-auto">
-          <h1 className="text-[#403E3E] text-center font-bold text-4xl">Perguntas Frequentes</h1>
-          <Faq />
+        <h1 className="text-[#403E3E] text-center font-bold text-4xl">
+          Perguntas Frequentes
+        </h1>
+        <Faq />
       </section>
 
       <section className="mt-20 flex flex-col justify-center gap-10 mb-12">
-        <h1 className="text-[#403E3E] mx-auto font-bold text-center text-4xl">Pronta para dar o seu primeiro passo?</h1>
+        <h1 className="text-[#403E3E] mx-auto font-bold text-center text-4xl">
+          Pronta para dar o seu primeiro passo?
+        </h1>
         <a
           href="https://pay.kiwify.com.br/M6Z9A61"
           className="bg-[#B2625C] w[340px] lg:w-[470px] text-center mx-auto font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
         >
-          Acesse o Manual e Comece Hoje! 
+          Acesse o Manual e Comece Hoje!
         </a>
       </section>
 
