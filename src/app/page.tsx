@@ -101,7 +101,7 @@ export default function Home() {
 
       <div className="flex flex-col justify-center items-center mb-20">
         <a
-          href="#scroll"
+          href="https://pay.kiwify.com.br/M6Z9A61"
           className="bg-[#B2625C] w-72 text-center mx-auto my-10 lg:mx-0 font-bold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
         >
           QUERO COMEÇAR!
@@ -182,7 +182,7 @@ export default function Home() {
 
       <div className="flex flex-col justify-center items-center mb-20">
         <a
-          href="#scroll"
+          href="https://pay.kiwify.com.br/M6Z9A61"
           className="bg-[#B2625C] w-76 text-center mx-auto my-10 lg:mx-0 font-semibold text-2xl text-[#FDFDFD] rounded-xl py-4 px-5 hover:scale-105 hover:bg-[#8b4c48] transition-transform duration-300 ease-in-out"
         >
           Quero começar agora!
